@@ -37,7 +37,8 @@ def show_login():
             max-width: 400px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
         }
-        header {visibility: hidden;}
+        header {visibility: showen
+        ;}
         footer {visibility: hidden;}
     </style>
     """, unsafe_allow_html=True)
@@ -221,4 +222,5 @@ def main():
 
 # Run the app
 if __name__ == "__main__":
+
     main()
